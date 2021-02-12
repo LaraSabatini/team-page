@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Desktop view*/
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 200px;
+
+    h1 {
+        font-family: PT Serif;
+        font-weight: 700;
+        font-size: 36px;
+        align-self: center;
+    }
+    
+    h2, span {
+        font-family: Poppins;
+        font-size: 18px;
+    }
+
+    h2 {
+        margin-top: 6%;
+    }
+    
+    span {
+        font-weight: 400;
+        line-height: 27px;
+        width: 439px;
+        display: block;
+    }
+}
+
+.container {
+    display: flex;
+    margin-left: 11.5%;
+    width: 950px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5%;
+
+    img {
+        width: 238px;
+        height: 341px;
+    }
+
+    h4 {
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    span {
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 12px;
+        writing-mode: vertical-lr;
+        position: absolute;
+        height: 200px;
+    }
+
+    .skylah, .stan {
+        margin-top: 5%;
+    }
+
+    .saba, .griff {
+        margin-top: 10%;
+    }
+
+}
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+    color: lightgray;
+    font-family: Montserrat;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
